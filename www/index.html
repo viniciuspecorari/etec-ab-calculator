@@ -1,0 +1,119 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+  <script src="components/loader.js"></script>
+
+
+
+  <!--- Jquery 3.1.1--->
+ <script src="components/jquery-3.3.1.min.js"></script>
+ <script src="components/acoes.js"></script>
+
+  <!--- Bootstrap 3.3.7--->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="components/loader.css">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+  <div class="container row">
+    <div class="row">
+      <div class ="div col-xs-12">
+      <center>
+        <h1>
+          Calculadora
+        </h1>
+      </center>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <input type="text" class="form-control display" id="display" readonly style="margin-bottom:15px; height:100px;">
+      </div>
+
+      <div class="row linha" style="margin-left:30px;" >
+
+        <div class="col-xs-2">
+          <button class="button btn-primary btn-block" id="btn7" style="width:70px; height:40px; margin-left:-20px">7</button>
+        </div>
+
+        <div class="col-xs-2">
+          <button class="button btn-primary btn-block" id="btn8"  style="width:70px; height:40px; margin-left:7.5px">8</button>
+        </div>
+
+        <div class="col-xs-2">
+          <button class="button btn-primary btn-block" id="btn9"  style="width:70px; height:40px; margin-left: 40px">9</button>
+        </div>
+
+        <div class="col-xs-2">
+          <button class="button btn-primary btn-block btn-danger" id="maisao"  style="width:70px; height:40px; margin-left:70px;">+</button>
+        </div>
+
+      </div>
+
+      <div class="row linha" style="margin-left:30px;">
+
+        <div class="col-xs-3">
+          <button class="button btn-primary btn-block " id="btn6" style="width:70px; height:40px; margin-left:-20px">6</button>
+        </div>
+
+        <div class="col-xs-3">
+          <button class="button btn-primary btn-block " id="btn5" style="width:70px; height:40px; margin-left:-24px">5</button>
+        </div>
+
+        <div class="col-xs-3">
+          <button class="button btn-primary btn-block " id="btn4"  style="width:70px; height:40px; margin-left: -24px">4</button>
+        </div>
+
+         <div class="col-xs-3">
+          <button class="button btn-primary btn-block btn-danger" id="menusinho" style="width:70px; height:40px; margin-left:-27px;">-</button>
+        </div>      
+      </div>
+
+        <div class="row linha">
+
+        <div class="col-xs-3">
+          <button class="button btn-primary btn-block " id="btn3" style="width:70px; height:40px; margin-left:25px">3</button>
+        </div>
+
+        <div class="col-xs-3">
+          <button class="button btn-primary btn-block " id="btn2"  style="width:70px; height:40px; margin-left: 10px">2</button>
+        </div>
+
+        <div class="col-xs-3">
+          <button class="button btn-primary btn-block " id="btn1" style="width:70px; height:40px; margin-left: -1px">1</button>
+        </div>
+
+         <div class="col-xs-3">
+          <button class="button btn-primary btn-block btn-danger" id="multi" style="width:70px; height:40px; margin-left:-14px;">X</button>
+        </div>      
+      </div>
+
+        <div class="row linha">
+
+        <div class="col-xs-3">
+          <button class="button btn-default btn-block " id="ce" style="width:70px; height:40px; margin-left:25px;">CE</button>
+        </div>
+
+        <div class="col-xs-3">
+          <button class="button btn-primary btn-block " id="btn0" style="width:70px; height:40px; margin-left:10px;">0</button>
+        </div>
+
+        <div class="col-xs-3">
+          <button class="button btn-success btn-block " id="igual" style="width:70px; height:40px; margin-left:-1px;">=</button>
+        </div>
+
+         <div class="col-xs-3">
+          <button class="button btn-primary btn-block btn-danger" id="divi" style="width:70px; height:40px; margin-left:-14px;">/</button>
+        </div>      
+      </div>    
+
+    </div>
+    
+</body>
+</html>
